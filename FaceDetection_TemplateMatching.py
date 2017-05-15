@@ -1,6 +1,5 @@
 import cv2
 import numpy as np
-from matplotlib import pyplot as plt
 
 # 读取图片，彩色模式
 img_color = cv2.imread('faces.jpg',cv2.IMREAD_COLOR)
